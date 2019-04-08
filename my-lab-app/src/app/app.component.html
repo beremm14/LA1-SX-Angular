@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <h2><app-clock [config]="configClock1"></app-clock></h2>
+  <h2><app-clock [config]="configClock2"></app-clock></h2>
+  <div>
+    <button style="padding: 1em" (click) = "onClick()">Press me!</button>
+  </div>
+<router-outlet></router-outlet>
